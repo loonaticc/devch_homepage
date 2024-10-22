@@ -9,7 +9,7 @@
 }
 
 :root{
-  --body : #F2F9FE;
+  --body : white;
   --grey : #909193;
   --dark-blue : #111729;
   --light-blue:#223344;
@@ -42,9 +42,7 @@ body{
     font-family: Poppins;
 }
 
-navbar #logo{
-    animation: enter 4s ease-in-out 1s;
-}
+
 
 .mobile-navbar{
     position: fixed;
@@ -84,20 +82,6 @@ navbar #logo{
 }
 
 
-
-
-@keyframes enter{
-
-    0%{
-        transform: translateY(-100%);
-        opacity: 0;
-    }
-
-    100%{
-        transform: translateY(0%);
-        opacity: 1;
-    }
-}
 
 navbar{
     padding:1.3rem 0.5rem;
@@ -159,7 +143,7 @@ main{
   align-items: center;
   justify-content: space-between;
   gap:7rem;
-  padding:3.7rem 1rem;
+  padding:3.9rem 1rem;
 }
 
 .main-content{
@@ -171,6 +155,7 @@ main{
 
 .main-content h3{
     font-size: 1rem;
+    font-weight:600;
     text-transform: uppercase;
     color:var(--dark-blue)
 }
